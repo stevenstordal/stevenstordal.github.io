@@ -24,3 +24,7 @@ p { margin-top: 0; }
 .intro {
   column-span: all;
 }
+
+img {
+  width: 100%;
+}
