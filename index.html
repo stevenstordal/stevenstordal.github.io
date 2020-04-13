@@ -1,21 +1,69 @@
 <!DOCTYPE html>
-<html lang="nb">
-<html>
-  <head>
-    <title>Johoo!</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <title>CSS Grid</title>
+  <style>
+    .wrapper{
+      display:grid;
+      /* grid-template-columns:1fr 1fr 1fr;*/
+      grid-template-columns:repeat(3, 1fr);
+      grid-gap:1em;
+      /* grid-auto-rows:100px; */
+      grid-auto-rows: minmax(100px, auto);
+    }
 
-<h1>Johoo!</h1>
-<div class="columns">
-  <p class="intro">Denne siden tenkte jeg å bruke til å legge ut litt av hvert, litt etter hvert.. Det blir nok noen blinkskudd fra viltkameraet med tiden, grevlingbilder først.</p> 
- <img src="20171012_093300_1.gif" alt="Drinking Coffee">
-  <p>You bet I could. I'm not such a bad pilot myself! We don't have to sit here and listen... We haven't that much with us. But we could pay you two thousand now, plus fifteen when we reach Alderaan. Seventeen, huh! Okay. You guys got yourself a ship. We'll leave as soon as you're ready. Docking bay Ninety-four. Ninety-four. Looks like somebody's beginning to take an interest in your handiwork. All right, we'll check it out.</p>  
-  <p>I hope the old man got that tractor beam out if commission, or this is going to be a real short trip. Okay, hit it! We're coming up on the sentry ships. Hold 'em off! Angle the deflector shields while I charge up the main guns! I can't believe he's gone. There wasn't anything you could have done. Come on, buddy, we're not out of this yet! You in, kid? Okay, stay sharp!</p>
-  <p>Have you been in many battles? Several, I think. Actually, there's not much to tell. I'm not much more than an interpreter, and not very good at telling stories. Well, not at making them interesting, anyways. Well, my little friend, you've got something jammed in here real good. Were you on a cruiser or...</p>
-</div>
+    .nested{
+      display:grid;
+      grid-template-columns:repeat(3, 1fr);
+      grid-auto-rows: 70px;
+      grid-gap:1em;
+    }
 
-  </body>
+    .wrapper > div{
+      background:#eee;
+      padding:1em;
+    }
+    .wrapper > div:nth-child(odd){
+      background:#ddd;
+    }
+
+    .nested > div{
+      border:#333 1px solid;
+      padding:1em;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam libero excepturi cupiditate quasi sit. Iure totam a magni, veritatis, voluptatem voluptates tempora praesentium et nisi eligendi. A saepe eaque aliquam, earum nihil quia? Nemo delectus possimus, explicabo repudiandae recusandae. Mollitia!
+    </div>
+    <div class="nested">
+      <div>Lorem</div>
+      <div>Lorem</div>
+      <div>Lorem</div>
+      <div>Lorem</div>
+      <div>Lorem</div>
+      <div>Lorem</div>
+      <div>Lorem</div>
+      <div>Lorem</div>
+      <div>Lorem</div>
+    </div>
+    <div>
+      Lorem ipsum dolor sit.
+    </div>
+    <div>
+      Lorem ipsum dolor sit.
+    </div>
+    <div>
+      Lorem ipsum dolor sit.
+    </div>
+    <div>
+      Lorem ipsum dolor sit.
+    </div>
+  </div>
+</body>
 </html>
-
