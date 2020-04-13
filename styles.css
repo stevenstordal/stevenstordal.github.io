@@ -1,0 +1,30 @@
+body {
+  font-size: 1.3rem;
+  line-height: 1.65;
+  font-family: 'Muli', sans-serif;
+  color: #1E1E24;
+  background-color: #FFF8F0;
+  margin: 2em;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #92140C;
+  font-weight: 900;
+}
+
+p { margin-top: 0; }
+
+.columns {
+  columns: 1fr 3;
+  column-rule: 1px dotted #ccc;
+  column-gap: 3em;
+}
+
+.intro {
+  column-span: all;
+}
+
+img {
+  width: 100%;
+}
