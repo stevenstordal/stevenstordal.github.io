@@ -31,6 +31,11 @@ p { margin-top: 0; }
   p {
     font-size: 1.25rem;
   }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
 }
 
 @media (min-width: 800px) {
