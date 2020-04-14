@@ -18,7 +18,7 @@ h1 {
 p { margin-top: 0; }
 
 .columns {
-  columns: 33% 3;
+  columns: 33,3% 3;
   column-rule: 1px dotted #ccc;
   column-gap: 3em;
 }
