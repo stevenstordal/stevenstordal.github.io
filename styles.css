@@ -1,66 +1,28 @@
-/*
-  AUTO GRID
-  Set the minimum item size with `--auto-grid-min-size` and you'll
-  get a fully responsive grid with no media queries.
-*/
-.auto-grid {
-  --auto-grid-min-size: 16rem;
-  
- 
-.auto-grid > * {
-  max-width: 400px;
-}
-
-.auto-grid > * + * {
-  margin-top: 1rem;
-}
-
-@supports (display: grid) {
-  .auto-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-    grid-gap: 1rem;
-  }
-
-  .auto-grid > * {
-    max-width: unset;
-  }
-
-  .auto-grid > * + * {
-    margin-top: unset;
-  }
-} 
- 
-  
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-  grid-gap: 1rem;
-}
-
-/*
-  WRAPPER
-  A utility with a max width that contains child elements and horizontal centers them
-*/
-.wrapper {
-  max-width: 65rem;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-
-/* Presentational styles */
+@import url('https://fonts.googleapis.com/css?family=Muli:300,900');
 
 body {
-  background: #efefef;
-  padding: 1rem 0;
-  line-height: 1.4;
-  font-family: sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.65;
+  font-family: 'Muli', sans-serif;
+  color: #1E1E24;
+  background-color: #FFF8F0;
+  margin: 2em;
 }
 
-li {
-  padding: 5rem 1rem;
-  text-align: center;
-  font-size: 1.2rem;
-  background: #be2edd;
-  color: #ffffff;
+h1 {
+  font-size: 4rem;
+  color: #92140C;
+  font-weight: 900;
+}
+
+p { margin-top: 0; }
+
+.columns {
+  columns: 250px 3;
+  column-rule: 1px dotted #ccc;
+  column-gap: 3em;
+}
+
+.intro {
+  column-span: all;
 }
