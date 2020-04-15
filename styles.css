@@ -24,6 +24,7 @@ p { margin-top: 0; }
 }
 
 .intro {
+  font-style: italic;
   column-span: all;
 }
 
