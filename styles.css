@@ -27,7 +27,7 @@ p { margin-top: 0; }
   columns: 250px 3;
   column-rule: 1px dotted #ccc;
   column-gap: 3em;
-  background-color: #ebfaeb;
+  background-color: #ffffcc;
 }
 
 .logo {
