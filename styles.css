@@ -23,6 +23,13 @@ p { margin-top: 0; }
   column-gap: 3em;
 }
 
+.column-two {
+  columns: 250px 3;
+  column-rule: 1px dotted #ccc;
+  column-gap: 3em;
+  background-color: #ebfaeb;
+}
+
 .logo {
   display: block;
   margin-left: auto;
