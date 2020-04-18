@@ -25,7 +25,7 @@ p { margin-top: 0; }
 
 .logo {
   display: block;
-  margin-left: auto;
+  margin-left: none;
   margin-right: auto;
   max-width: 60%;
 }
