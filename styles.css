@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:300,900');
-
 body {
   font-size: 1.1rem;
   line-height: 1.1;
-  font-family: 'Muli', sans-serif;
+  font-family: sans-serif;
   color: #1E1E24;
   background-color: #ffffff;
   margin: 2em;
@@ -12,7 +10,6 @@ body {
 h1 {
   font-size: 2rem;
   color: #1E1E24;
-  font-weight: 900;
 }
 
 p { margin-top: 0; }
