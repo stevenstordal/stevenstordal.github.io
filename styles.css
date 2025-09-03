@@ -22,7 +22,7 @@ table, th, td {
         }
 
 ol {
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 ol {
