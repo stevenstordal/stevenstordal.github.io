@@ -22,7 +22,11 @@ table, th, td {
         }
 
 {
-  list-style-position: outside;
+  list-style-position: inside;
+}
+
+{
+  list-style-type: decimal-leading-zero;
 }
 
 .columns {
