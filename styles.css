@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 4rem;
   font-family: serif;
   color: #1E1E24;
 }
@@ -23,10 +23,8 @@ table, th, td {
 
 ol {
   list-style-position: outside;
-}
-
-ol {
   list-style-type: decimal-leading-zero;
+  font-size: 2rem:
 }
 
 .columns {
