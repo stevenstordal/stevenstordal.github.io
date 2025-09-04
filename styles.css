@@ -8,12 +8,13 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: serif;
   color: #1E1E24;
 }
 
-p { margin-top: 0; }
+p { margin-top: 0; margin-left: 30
+  }
 
 table, th, td {
   padding: 8px;
@@ -51,10 +52,5 @@ ol li {
 
 .about {
   font-size: 1rem;
-}
-
-img {
-  width: 300px;
-  height: 100px;
 }
 
