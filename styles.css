@@ -25,6 +25,7 @@ ol {
   list-style-position: outside;
   list-style-type: decimal-leading-zero;
   font-size: 2rem:
+  line-height: 1.6;
 }
 
 .columns {
