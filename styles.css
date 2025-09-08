@@ -7,6 +7,10 @@ body {
   margin: 2em;
 }
 
+a:hover {
+  color: hotpink;
+}
+
 h1 {
   font-size: 2rem;
   font-family: serif;
